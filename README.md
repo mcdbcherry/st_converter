@@ -1,4 +1,4 @@
-![ST Converter](ST_Converter.png)
+![ST Converter](ST_Converter_output.png)
 
 # <img src="icon.png" width="40" alt="icon" style="vertical-align: middle;"> ST Code Converter
 
@@ -41,7 +41,7 @@ To use this tool, you need the following software installed on your system:
 - **Processing Limit:** You can convert exactly **one function** per execution.
 - **Conversion Limitations based on Language Specs:** Conversions from vendors with rich ST language specifications (e.g., Siemens, Rockwell, Omron) to vendors with more limited specifications (e.g., Mitsubishi, IEC Standard) may not always succeed due to missing equivalent language features.
 
-![ST Converter Output](ST_Converter_output.png)
+![ST Converter Output](ST_Converter.png)
 
 ## ⚠️ Important Notes
 
