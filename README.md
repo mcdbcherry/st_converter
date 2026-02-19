@@ -27,6 +27,7 @@ To use this tool, you need the following software installed on your system:
   - *Note:* Code that defines data types in ST (a format adopted by certain vendors) is not supported and will not be converted.
 - **System Calls:** Vendor-specific system calls are retained using their original function names. A comment will be automatically appended to these lines, indicating that the specific feature requires manual re-implementation in the target environment.
 - **Processing Limit:** You can convert exactly **one function** per execution.
+- **Conversion Limitations based on Language Specs:** Conversions from vendors with rich ST language specifications (e.g., Siemens, Rockwell, Omron) to vendors with more limited specifications (e.g., Mitsubishi, IEC Standard) may not always succeed due to missing equivalent language features.
 
 ![ST Converter Output](ST_Converter_output.png)
 
@@ -42,6 +43,7 @@ We need your help to improve the converter's accuracy!
 
 - **Report Bugs:** If you discover a problem, please open an **Issue**. We will review and address them sequentially to improve the tool.
 - **Share Failed Conversions:** If you encounter ST code that did not convert correctly, please share the snippet in an **Issue** so we can analyze and enhance the underlying engine.
+
 
 ---
 
