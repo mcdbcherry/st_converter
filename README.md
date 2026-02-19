@@ -2,6 +2,18 @@
 
 # <img src="icon.png" width="40" alt="icon" style="vertical-align: middle;"> ST Code Converter
 
+## 📖 The Story Behind This Tool
+
+As a high-level language software engineer, I cannot write PLC ladder logic. Beyond the architectural differences, I simply had no desire to learn vendor-locked code that can only be used in highly restricted environments.
+
+So, I decided to take a different approach: *"Why not build a modern software controller where control logic can be written entirely in high-level languages?"* This led me to develop **[OCA (Object-oriented Control Architecture)](https://github.com/mcdbcherry/oca_release)**.
+
+It all started with an attempt to import existing PLC code into OCA by adding a feature to convert Structured Text (ST) into C++. The robust conversion mechanism I implemented turned out to be capable of not only converting ST to C++, but also translating ST code between different PLC vendors.
+
+This software is the standalone ST conversion engine, extracted directly from the OCA framework.
+
+---
+
 This tool converts Structured Text (ST) code used by various PLC vendors into ST code for other vendors, or into high-level programming languages. 
 Unlike simple regex-based string replacements, this conversion is powered by a robust and advanced parsing architecture.
 
@@ -44,7 +56,6 @@ We need your help to improve the converter's accuracy!
 - **Report Bugs:** If you discover a problem, please open an **Issue**. We will review and address them sequentially to improve the tool.
 - **Share Failed Conversions:** If you encounter ST code that did not convert correctly, please share the snippet in an **Issue** so we can analyze and enhance the underlying engine.
 
-
 ---
 
 ## ⚠️ License & Proprietary Notice
@@ -57,4 +68,3 @@ Unauthorized copying, distribution, modification, or use of this file, via any m
 * **Asset Acquisition:** For inquiries regarding technology transfer or IP acquisition, please contact the author directly.
 
 **Strictly Confidential.**
-
