@@ -1,4 +1,6 @@
-# 🔄 ST Code Converter
+![ST Converter](ST_Converter.png)
+
+# <img src="icon.png" width="40" alt="icon" style="vertical-align: middle;"> ST Code Converter
 
 This tool converts Structured Text (ST) code used by various PLC vendors into ST code for other vendors, or into high-level programming languages. 
 Unlike simple regex-based string replacements, this conversion is powered by a robust and advanced parsing architecture.
@@ -6,7 +8,8 @@ Unlike simple regex-based string replacements, this conversion is powered by a r
 ## 📦 Requirements
 
 To use this tool, you need the following software installed on your system:
-- **Python** - **Microsoft Visual C++ Redistributable**
+- **Python**
+- **Microsoft Visual C++ Redistributable**
 
 ## 🚀 Getting Started
 
@@ -25,6 +28,8 @@ To use this tool, you need the following software installed on your system:
 - **System Calls:** Vendor-specific system calls are retained using their original function names. A comment will be automatically appended to these lines, indicating that the specific feature requires manual re-implementation in the target environment.
 - **Processing Limit:** You can convert exactly **one function** per execution.
 
+![ST Converter Output](ST_Converter_output.png)
+
 ## ⚠️ Important Notes
 
 - **Beta Testing Limitations:** Currently, it is difficult to obtain testable ST code in the wild, which means our actual conversion testing is limited. **Please expect bugs and unexpected behaviors.**
@@ -37,3 +42,17 @@ We need your help to improve the converter's accuracy!
 
 - **Report Bugs:** If you discover a problem, please open an **Issue**. We will review and address them sequentially to improve the tool.
 - **Share Failed Conversions:** If you encounter ST code that did not convert correctly, please share the snippet in an **Issue** so we can analyze and enhance the underlying engine.
+
+---
+
+## ⚠️ License & Proprietary Notice
+
+**Copyright (c) 2016-2026 Satoshi Murakami. All Rights Reserved.**
+
+This source code and related documentation are the **proprietary property** of Satoshi Murakami.
+Unauthorized copying, distribution, modification, or use of this file, via any medium, is strictly prohibited.
+
+* **Asset Acquisition:** For inquiries regarding technology transfer or IP acquisition, please contact the author directly.
+
+**Strictly Confidential.**
+
