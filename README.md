@@ -57,6 +57,23 @@ We need your help to improve the converter's accuracy!
 - **Share Failed Conversions:** If you encounter ST code that did not convert correctly, please share the snippet in an **Issue** so we can analyze and enhance the underlying engine.
 
 ---
+## 💡 Support Our Crowdfunding Campaign! / クラウドファンディング開始のお知らせ
+
+**👉 [Support ST Code Converter on FundRazr](https://fnd.us/a2gno7?ref=sh_6EmoG2)**
+
+We have launched a crowdfunding campaign to secure funding for the continuous development and quality improvement of the **ST Code Converter**. 
+As an independent, developer-driven project, your support is crucial. Donations will go directly toward expanding PLC vendor compatibility, refining the core AST parsing engine, and keeping this project alive and evolving.
+
+If you find this tool valuable or share our vision of modernizing industrial control software, please consider backing us. Every contribution makes a huge difference. Thank you for your support!
+
+**開発資金調達のためクラウドファンディングを開始しました！**
+
+**👉 [Support ST Code Converter on FundRazr](https://fnd.us/a2gno7?ref=sh_6EmoG2)**
+
+ST Code Converter の品質向上（構文解析エンジンの精度強化や対応PLCベンダーの拡充など）および開発継続のために、皆様からのご支援を募集しております。
+本ツールが業務の役に立ったという方や、私たちの「産業用制御ソフトウェアのモダナイズ」というビジョンに応援・賛同いただける方からのご寄付を心よりお待ちしております。ご協力いただけると大変助かります！！
+
+---
 
 ## ⚠️ License & Proprietary Notice
 
